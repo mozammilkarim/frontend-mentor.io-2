@@ -1,10 +1,11 @@
 import './App.css'
-import PrimaryButton from './components/PrimaryButton'
-
+import SuperSolution from './components/SuperSolution'
+import TopSection from './components/TopSection'
 function App() {
   return (
-    <div className="">
-      <PrimaryButton/>
+    <div className="mx-[165px] my-[50px]">
+      <TopSection/>
+      <SuperSolution/>
     </div>
   )
 }
