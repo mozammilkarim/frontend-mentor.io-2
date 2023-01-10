@@ -1,6 +1,8 @@
 import React from 'react'
 import SecondaryButton from './SecondaryButton'
 import phone from "../../assets/image-hero-portrait@2x.png"
+import curvedLine from "../../assets/pattern-curved-line-1.svg"
+
 const Numbers = () => {
     return (
         <div className='flex flex-col items-center justify-center '>
@@ -22,10 +24,13 @@ const Numbers = () => {
 
 const SuperSolution = () => {
     return (
-        <div className='mt-[67px] flex w-full '>
-            <div className=''>
-
-                <p className='text-7xl text-[#172339] w-[635px]'>A
+        <div className='mt-[67px] flex w-full   sm:flex-row flex-col pb-20 mb-20  sm:pb-40 sm:mb-40 relative'>
+            <div className='absolute top-10 left-[40%] z-20'>
+                <img src={curvedLine} alt="curvedLine" />
+            </div>
+            <div className='pt-[103px] pb-[92px] w-[60%] z-20'>
+ 
+                <p className='text-4xl sm:text-7xl text-[#172339] '>A
                     <span className='font-bold mx-5'>super solution
                     </span>
                     for your
@@ -40,7 +45,7 @@ const SuperSolution = () => {
                 </div>
             </div>
 
-            <div className='relative w-full'>
+            <div className='relative w-[450px] z-10'>
                 <img src={phone} alt="phone" className='absolute w-full right-20 h-full'/>
             </div>
             <Numbers />
