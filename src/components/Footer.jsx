@@ -6,14 +6,14 @@ import ItJustWorksSection from './ItJustWorksSection';
 
 const Footer = () => {
     return (
-        <div className='relative mt-[40rem]'>
-            <div className=' bg-[#F3EDE7] h-fit sm:h-[464px]    absolute bottom-0 w-full xl:px-[165px] xl:py-[50px] p-3 pb-40'>
-                <div className=' md:relative md:bottom-[30rem]'>
-
+        <div className='relative mt-[50rem] sm:mt-[40rem]'>
+            <div className='md:relative md:bottom-[30rem] bg-[#F3EDE7] h-[1375px] sm:h-[464px]    absolute bottom-0 w-full xl:px-[165px] xl:py-[50px] p-3 pb-40'>
                     <ItJustWorksSection />
+                <div className=' '>
+
                 </div>
             </div>
-            <div className='w-full static md:absolute bottom-0  flex sm:flex-row flex-col  justify-between  xl:px-[165px] xl:py-[50px] p-3 pb-20 md:pb-40'>
+            <div className='w-full absolute bottom-0  flex sm:flex-row flex-col  justify-between  xl:px-[165px] xl:py-[50px] p-3 items-center  md:pb-40'>
                 {/* <div> */}
 
                 <h2 className='text-3xl text-[#172339] font-bold'>suite</h2>
