@@ -5,7 +5,7 @@ import curvedLine from "../../assets/pattern-curved-line-2.svg"
 
 const ItJustWorksSection = () => {
     return (
-        <div className=' bg-[#172339]  flex flex-col xl:flex-row items-center w-full text-[#F3EDE7]  justify-center rounded-3xl my-20 py-[64px] pt-0 '>
+        <div className=' bg-[#172339]  flex flex-col xl:flex-row items-center  text-[#F3EDE7]  justify-center rounded-3xl my-20 py-[64px] pt-0 '>
             <div className='relative xl:left-[5rem] left-0 -top-10 px-3'>
 
                 <img src={CMO} alt="CMO" className='z-20 h-[590px] xl:w-[360px] w-full   bottom-[2rem] ' />
